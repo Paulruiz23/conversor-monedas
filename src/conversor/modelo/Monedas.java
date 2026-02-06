@@ -1,4 +1,7 @@
 package conversor.modelo;
 
-public record Monedas(String conversion_rates) {
+import java.util.Map;
+
+public record Monedas(Map<String,Double> conversion_rates, String base_code) {
+
 }

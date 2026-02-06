@@ -1,4 +1,4 @@
-package conversor.Cliente;
+package conversor.cliente;
 
 import com.google.gson.Gson;
 import conversor.modelo.Monedas;
